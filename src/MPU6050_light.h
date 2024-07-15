@@ -36,6 +36,7 @@
 class MPU6050{
   public:
     // INIT and BASIC FUNCTIONS
+	MPU6050();
 	MPU6050(TwoWire &w);
     byte begin(int gyro_config_num=1, int acc_config_num=0);
 	
